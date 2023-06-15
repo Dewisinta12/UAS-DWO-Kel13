@@ -9,4 +9,4 @@
 8. Import file adventureworks.sql ke dalam database uasdwo.
 9. Pindahkan file jsp, xml yang ada pada folder mondrian-queries pindahkan kedalam folder -> C:\xampp\tomcat\webapps\mondrian\WEB-INF\queries.
 10. Pindahkan file jsp, html yang ada pada folder mondrian pindahkan kedalam folder -> C:\xampp\tomcat\webapps\mondrian.
-11. Jalankan aplikasi dengan mengakses (http://localhost/UAS-DWO-Kel13).
+11. Jalankan aplikasi dengan mengakses (http://localhost/UAS-DWOKel13/dashboard.php).
