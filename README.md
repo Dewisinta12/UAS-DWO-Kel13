@@ -1,12 +1,14 @@
-# UAS-DWO-Kel13
-1. Install database server: MySql (XAMPP versi terbaru).
-2. Install software mysql management: phpMyAdmin dari XAMPP (ATAU YG LAIN).
-3. Extract UAS-DWO-Kel13.zip pada folder direktori htdocs XAMPP (xampp/htdocs).
-4. Jalankan XAMPP control panel.
-5. Start apache,mysql server, dan tomcat.
-6. Buka di browser ketik phpMyAdmin (http://localhost/phpmyadmin) enter.
-7. Buat database dengan nama uasdwo.
-8. Import file adventureworks.sql ke dalam database uasdwo.
-9. Pindahkan file jsp, xml yang ada pada folder mondrian-queries pindahkan kedalam folder -> C:\xampp\tomcat\webapps\mondrian\WEB-INF\queries.
-10. Pindahkan file jsp, html yang ada pada folder mondrian pindahkan kedalam folder -> C:\xampp\tomcat\webapps\mondrian.
-11. Jalankan aplikasi dengan mengakses (http://localhost/UAS-DWOKel13/dashboard.php).
+# Langkah-langkah Manual Instalasi
+
+1. Download dan install XAMPP untuk menjalankan Apache, MySQL, dan Tomcat
+2. Download PHP dengan versi terbaru 
+3. Buka github dan download folder .zip melalui link github https://github.com/afridalailiyah/uasdwo/
+4. Export file zip yang di download dan letakkan di bagian directory C:\xampp\htdocs\uasdwo yang terdapat pada masing-masing device
+5. Download database yang digunakan yaitu uasdwo.sql yang juga sudah terdapat di folder .zip yg telah di download 
+6. Akses http://localhost/phpmyadmin/ lalu buat database baru dengan nama uasdwo
+7. Import database uasdwo.sql ke dalam database uasdwo yg berada di phpmyadmin
+8. Sebelum mengakses website, pindahkan folder mondrian2 yang berada di dalam folder.zip yang sudah di download 
+9. Letakkan folder mondrian2 pada directory C:\xampp\tomcat\webapps\
+10. Jangan lupa untuk melakukan start pada Apache, MySQL, dan Tomcat yang berada pada XAMPP
+11. Jalankan dashboard dengan mengakses http://localhost/uasdwo/
+12. Selamat mengexplore aplikasi dashboard yang telah dibuat
